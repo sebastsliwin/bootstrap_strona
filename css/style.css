@@ -1,0 +1,330 @@
+/* GENERAL */
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-header {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+section .section-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Navbar */
+#main-nav .navbar-brand {
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+#main-nav .nav-link {
+    color: #fff;
+    
+    text-transform: uppercase;
+    font-family: 'Montserrat'. sans-serif;
+    transition: all 0.5s;
+}
+
+#main-nav .nav-link:hover {
+    color: #0ed8d6;
+}
+
+/* HEADER */
+#main-header {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/header/pictures_on_the_wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header .header-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+#main-header .header-caption h1 {
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-header .header-caption .view-more {
+    background-color: #0ed8d6;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    padding: 15px 30px;
+    border: 1px solid #0ed8d6;
+    transition: all 0.5s;
+}
+
+#main-header .header-caption .view-more:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+}
+
+/* Services */
+
+#services .fas {
+    font-size: 3em;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+#services .fas:hover {
+    color: #0ed8d6;
+    background-color: #fff;
+    transform: rotate(360deg);
+}
+
+/* Section portfolio */
+#portfolio {
+    background-color: #f7f7f7;
+}
+
+#portfolio .images {
+    position: relative;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#portfolio #images_1 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio #images_2 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#portfolio #images_3 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio #images_4 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio #images_5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio #images_6 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#portfolio figcaption h3 {
+    font-weight: 900;
+}
+
+#portfolio figcaption h3,
+#portfolio figcaption p {
+    margin-left: 15px;
+}
+
+#portfolio figcaption {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: left;
+    margin: 0 0 35px 0;
+}
+
+#portfolio .images .mask {
+    height: 100%;
+    background-color: rgba(14, 216, 214, 0.59);
+    opacity: 0;
+    transition: all 0.4s;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .images .mask:hover {
+    opacity: 1;
+}
+
+/* icons */
+.fa-plus {
+    color: #fff;
+    font-size: 3em;
+}
+
+#team .fa-facebook-f,
+#team .fa-twitter,
+#team .fa-linkedin-in {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+#team .fab:hover {
+    background-color: rgba(14, 216, 214, 0.59);
+}
+
+/* Section team */
+#team .col-md-4 {
+    text-align: center;
+}
+
+#team .section-header p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+#team h3 {
+    font-weight: 600;
+}
+
+#team .picture-team {
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#team #pic1 {
+    background-image: url(../img/team/man-1.jpg);
+}
+
+#team #pic2 {
+    background-image: url(../img/team/man-2.jpg);
+}
+
+#team #pic3 {
+    background-image: url(../img/team/woman-1.jpg);
+}
+
+
+/* section contact */
+#contact {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/footer/world-map.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 130px;
+}
+
+#contact .section-header h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 900;
+}
+
+#contact .section-header p {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+#contact [type="text"],
+#contact [type="email"],
+#contact [type="number"] {
+    height: 70px;
+    color: #777;
+}
+
+#contact #msg {
+    width: 100%;
+    height: 94%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#contact .button {
+    margin-top: 25px;
+    padding: 22px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #0ed8d6;
+}
+
+#contact .button:hover {
+    color: #0ed8d6;
+    background-color: #fff;
+}
+
+/* footer */
+footer {
+    margin: 20px 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer icons */
+footer .fab {
+    background-color: #000;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+footer .fab:hover {
+    background-color: #0ed8d6;
+}
+
+footer h5 {
+    margin: 0;
+}
+
+footer p {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+footer .footerItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
